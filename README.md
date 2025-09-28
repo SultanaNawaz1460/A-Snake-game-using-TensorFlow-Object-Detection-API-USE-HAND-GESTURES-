@@ -25,15 +25,25 @@ No keyboard required – play by moving your hands in front of the camera!
 ## 📂 Project Structure
 snake_gesture_game/
 ├── main.py (master controller)
+
 ├── test_env.py
+
 ├── capture_gestures.py (your photos)
+
 ├── augment_images.py (multiply photos)
+
 ├── auto_annotate.py (create labels)
+
 ├── train_model.py (we'll create next)
+
 ├── snake_game.py (we'll create next)
+
 └── dataset/
+
     ├── raw_images/ (your original photos)
+    
     ├── augmented/ (multiplied images)
+    
     └── annotations/ (bounding boxes)
     
 ---
