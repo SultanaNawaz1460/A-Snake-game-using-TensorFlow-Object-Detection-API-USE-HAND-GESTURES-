@@ -23,7 +23,7 @@ No keyboard required – play by moving your hands in front of the camera!
 ---
 
 ## 📂 Project Structure
-snake_gesture_game/
+**snake_gesture_game**
 ├── main.py (master controller)
 
 ├── test_env.py
@@ -48,7 +48,7 @@ snake_gesture_game/
     
 ---
 
-## 🚀 Features
+## 🚀**Features**
 - 🎮 Snake game controlled entirely with hand gestures  
 - ✋ Real-time gesture detection via TensorFlow Object Detection API  
 - 🖼️ Automated dataset creation and augmentation pipeline  
@@ -62,33 +62,33 @@ snake_gesture_game/
 - **TensorFlow Object Detection API**  
 - **OpenCV**  
 - **NumPy**  
-- **Labeling Tools (e.g., auto_annotate.py)**  
+- **Labeling Tools (e.g., auto_annotate.py)**
+- 
+## ▶️ **How to Run**
+🔹 **Step 1:** Clone this repository  
+```bash
+git clone https://github.com/YourUsername/snake_gesture_game.git
+cd snake_gesture_game
 
----
-
-
-
-
-
-
-## ▶️ How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/YourUsername/snake_gesture_game.git
-   cd snake_gesture_game
-2.Install dependencies:
+**2.Install dependencies:**
 pip install -r requirements.txt
-3. Collect gesture images:
+
+**3. Collect gesture images:**
 python capture_gestures.py
-4. Augment dataset:
+
+**4. Augment dataset:**
 python augment_images.py
-5.Auto-annotate images:
+
+**5.Auto-annotate images:**
 python auto_annotate.py
-6.Train the model (to be implemented):
+
+**6.Train the model (to be implemented):**
 python train_model.py
-7.Play the Snake Game (to be implemented):
+
+**7.Play the Snake Game (to be implemented)**:
 python snake_game.py
-##📌 Future Improvements
+
+##📌 **Future Improvements**
 
 Enhance accuracy with custom gesture classes
 
@@ -97,13 +97,12 @@ Add more gestures (pause/restart game)
 Use lightweight models for faster performance
 
 Extend concept to other interactive games
-##🙌 Contribution
+
+##🙌 **Contribution**
 
 Contributions are welcome! Fork, make changes, and submit a pull request.
-##📜 License
+
+##📜**License**
 
 Licensed under the MIT License.
-
----
-
 Would you like me to also generate a **requirements.txt** (with TensorFlow, OpenCV, NumPy, etc.) for this repo so users can set it up quickly?
